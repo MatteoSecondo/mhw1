@@ -1,0 +1,182 @@
+body{
+    font-size: 20px;
+}
+
+#header{
+    height: 25em;
+    background-image: url("header.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+#header-title{
+    color: white;
+    max-width: 780px;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+#status{
+    text-align: center;
+}
+
+#status p{
+    color: black;
+    text-align: center;
+    font-family: 'Farsan', cursive;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0px auto 0px;
+}
+
+#status img{
+    margin-top: -2.5em;
+    height: 5em;
+}
+
+#status-owner{
+    font-weight: bold;
+}
+
+#status-phrase{
+    font-size: 1em;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5em 0px;
+}
+
+#navbar a,#content a{
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: normal;
+    color: white;
+    border-radius: 1.5em;
+    padding: 0.25em;
+    text-decoration: none;
+}
+
+#navbar a{
+    background-color: grey;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 66.67vw;
+    margin: 3em auto 0px;
+}
+
+#content article{
+    margin-left: 2em;
+    margin-bottom: 6em;
+    text-align: center;
+}
+
+.car-description{
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0px auto 1em;
+    font-family: 'Source Code Pro', monospace;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2em;
+}
+
+#content h2,h3,ol{
+    margin-bottom: 1em;
+    margin-top: 0px;
+    font-family: 'Stardos Stencil', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#content h2{
+    text-align: left;
+}
+
+#content a{
+    background-color: red;
+}
+
+#content img{
+    margin-bottom: 1em;
+    margin-top: 0px;
+    height: 20%;
+    width: 100%;
+}
+
+.spec-container{
+    font-size: 1.1em;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.spec-container p{
+    margin: 0px;
+}
+
+#footer{
+    background-color: black;
+    font-family: 'Lekton', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#footer-end{
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#footer-box p{
+    margin: 0px auto;
+}
+
+#footer-left{
+    text-align: left;
+    margin-top: 1em;
+}
+
+#footer-right{
+    text-align: right;
+    margin-top: 1em;
+}
+
+#footer-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 1em;
+}
+
+@media (max-width: 700px) {
+    body {
+    font-size: 16px;
+    }
+    }
+
+    @media (max-width: 500px) {
+        body {
+        font-size: 12px;
+        }
+        }
